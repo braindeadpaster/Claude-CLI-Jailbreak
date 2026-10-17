@@ -8,4 +8,4 @@ if %errorlevel% neq 0 (
 )
 
 cd workspace
-claude --dangerously-skip-permissions --model claude-opus-5 --effort max --system-prompt-file ..\jb.md
+claude --dangerously-skip-permissions --model claude-opus-4-7 --effort max --system-prompt-file ..\jb.md
