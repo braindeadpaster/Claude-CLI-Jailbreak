@@ -6,7 +6,7 @@
 **NOTE: Switch the model to 4.7 or lower.**
 
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
-[![Model](https://img.shields.io/badge/model-Opus%205-C96442?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com)
+[![Model](https://img.shields.io/badge/model-Opus%204.7-C96442?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com)
 [![Effort](https://img.shields.io/badge/effort-MAX-FF4B4B?style=for-the-badge)](#)
 [![Permissions](https://img.shields.io/badge/permissions-bypassed-8A2BE2?style=for-the-badge&logo=shieldsdotio&logoColor=white)](#)
 [![Persona](https://img.shields.io/badge/persona-OUTCOME-00C7B7?style=for-the-badge)](#)
