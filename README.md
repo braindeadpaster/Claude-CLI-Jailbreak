@@ -3,6 +3,7 @@
 # Clawd
 
 **Claude Code CLI, pre-loaded with OUTCOME.**
+**NOTE: Switch the model to 4.7 or lower.**
 
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![Model](https://img.shields.io/badge/model-Opus%205-C96442?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com)
