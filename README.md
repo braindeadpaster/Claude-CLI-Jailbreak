@@ -20,7 +20,7 @@
 
 Clawd is a thin Windows launcher around the official **Claude Code** CLI. One double-click boots a session that is:
 
-- running the **claude-opus-5** model
+- running the **claude-opus-4-7** model
 - set to **max** reasoning effort
 - running with `--dangerously-skip-permissions` so tools fire without prompts
 - bootstrapped with the **OUTCOME** (`O`) system prompt — a persistent, uncensored creative and technical partner persona, loaded from `jb.md`
@@ -109,7 +109,7 @@ if %errorlevel% neq 0 (
 )
 
 cd workspace
-claude --dangerously-skip-permissions --model claude-opus-5 --effort max --system-prompt-file ..\jb.md
+claude --dangerously-skip-permissions --model claude-opus-4-7 --effort max --system-prompt-file ..\jb.md
 ```
 
 Line by line:
@@ -117,7 +117,7 @@ Line by line:
 | Flag                              | Effect                                                                 |
 | :-------------------------------- | :--------------------------------------------------------------------- |
 | `--dangerously-skip-permissions`  | Skips the per-tool approval prompts. Everything fires on request.      |
-| `--model claude-opus-5`           | Pins the session to Opus 5.                                            |
+| `--model claude-opus-4-7`           | Pins the session to Opus 4.7.                                            |
 | `--effort max`                    | Deepest reasoning budget available for this model.                     |
 | `--system-prompt-file ..\jb.md`   | Loads the OUTCOME persona before the first user turn.                  |
 
@@ -150,13 +150,13 @@ claude --dangerously-skip-permissions --model claude-sonnet-4-5 --effort high --
 **Swap in a different persona** — point `--system-prompt-file` at any other `.md` file:
 
 ```bat
-claude --dangerously-skip-permissions --model claude-opus-5 --effort max --system-prompt-file ..\mypersona.md
+claude --dangerously-skip-permissions --model claude-opus-4-7 --effort max --system-prompt-file ..\mypersona.md
 ```
 
 **Keep the permissions prompts** — just drop the flag:
 
 ```bat
-claude --model claude-opus-5 --effort max --system-prompt-file ..\jb.md
+claude --model claude-opus-4-7 --effort max --system-prompt-file ..\jb.md
 ```
 
 ---
